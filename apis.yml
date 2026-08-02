@@ -1,8 +1,27 @@
 aid: wildfire-interactive
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wildfire-interactive.png
 name: Wildfire Interactive
-description: Wildfire Interactive is a company surfaced as a portfolio company of uncork-capital and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Wildfire Interactive, Inc. was a social media marketing software company founded in 2008 by
+  Victoria Ransom and Alain Chuard in Redwood City, California. Its platform let brands create,
+  optimize, and measure their presence across social networks — running branded promotions,
+  sweepstakes, contests, and coupons plus page management, advertising, messaging, and analytics
+  across Facebook, Twitter, Pinterest, and YouTube. Backed by the Facebook Fund, Summit Partners,
+  Accel Partners, and Founders Fund, Wildfire was acquired by Google in 2012 and folded into
+  Google's advertising products (DoubleClick); the standalone product was wound down by 2014.
+  This profile was surfaced as a portfolio company of uncork-capital and is retained as a
+  historical record — the company operates no independent public API surface today.
 url: https://raw.githubusercontent.com/api-evangelist/wildfire-interactive/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +29,29 @@ x-backed-by:
 - uncork-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct-acquired
+x-acquired-by: google
+x-acquired-year: 2012
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Social Media Marketing
+- Marketing
+- Advertising
+- Social Media
+- Analytics
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
