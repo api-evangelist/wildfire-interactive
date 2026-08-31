@@ -75,3 +75,9 @@ x-enrichment:
   status: minimal
   artifacts_added: 0
   pass: local-v1
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/google/
+  name: Google
+  x-relationship: acquired
+  x-evidence: "Backed by the Facebook Fund, Summit Partners, Accel Partners, and Founders Fund, Wildfire was acquired by Google in 2012 and folded into Google's advertising products (DoubleClick); the standalone product was wound down by 2014."
